@@ -16,3 +16,8 @@ print(mult_list(list1))
 def rev_string(str):
     return str[::-1]
 print(rev_string("bonjour"))
+
+#4
+def num_within(x, a, b):
+  return x in range(a, b + 1)
+print(num_within(10, 2, 5))
