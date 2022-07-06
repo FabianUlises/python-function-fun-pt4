@@ -11,3 +11,8 @@ def mult_list(list) :
     return res
 list1 = [2, 3, 4]
 print(mult_list(list1))
+
+#3
+def rev_string(str):
+    return str[::-1]
+print(rev_string("bonjour"))
