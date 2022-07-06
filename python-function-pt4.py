@@ -21,3 +21,18 @@ print(rev_string("bonjour"))
 def num_within(x, a, b):
   return x in range(a, b + 1)
 print(num_within(10, 2, 5))
+
+#5
+def pascal(n):
+   for i in range(n + 1):
+      for j in range(n - i):
+         print(' ', end = '')
+
+      C = 1
+      for j in range(1, i + 1):
+         print(C, ' ', sep = '', end = '')
+         C = C * (i - j) // j
+      print()
+
+n = 5
+pascal(n)
