@@ -4,6 +4,10 @@ def max_num(a, b, c):
 print(max_num(1, 2, 3));
 
 #2
-def mult_list(*args):
-    print(args)
-mult_list(3,4,5)
+def mult_list(list) :
+    res = 1
+    for x in list:
+        res = res * x
+    return res
+list1 = [2, 3, 4]
+print(mult_list(list1))
